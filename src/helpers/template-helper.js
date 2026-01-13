@@ -8,6 +8,7 @@ module.exports = {
       {
         beautify: true,
         indent_size: 2,
+        brace_style: 'collapse,preserve-inline',
         preserve_newlines: false,
       },
       options || {}

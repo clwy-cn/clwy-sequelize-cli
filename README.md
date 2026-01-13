@@ -13,7 +13,7 @@ The [Sequelize](https://sequelize.org) Command Line Interface (CLI)
 Make sure you have [Sequelize](https://sequelize.org) installed. Then install the Sequelize CLI to be used in your project with
 
 ```bash
-npm install --save-dev sequelize-cli
+npm install --save-dev clwy-sequelize-cli
 ```
 
 And then you should be able to run the CLI with
@@ -25,7 +25,7 @@ npx sequelize --help
 ### Usage
 
 ```bash
-Sequelize CLI [Node: 10.21.0, CLI: 6.0.0, ORM: 6.1.0]
+CLWY Sequelize CLI [Node: 10.21.0, CLI: 6.0.0, ORM: 6.1.0]
 
 sequelize <command>
 

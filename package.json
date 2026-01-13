@@ -1,7 +1,7 @@
 {
-  "name": "sequelize-cli",
-  "version": "6.6.3",
-  "description": "The Sequelize CLI",
+  "name": "clwy-sequelize-cli",
+  "version": "0.0.1",
+  "description": "The CLWY Sequelize CLI",
   "types": "./types.d.ts",
   "bin": {
     "sequelize": "./lib/sequelize",

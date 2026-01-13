@@ -1,8 +1,6 @@
-'use strict';
+import { Model } from 'sequelize'
 
-const { Model } = require('sequelize');
-
-module.exports = (sequelize, DataTypes) => {
+export default (sequelize, DataTypes) => {
   class <%= name %> extends Model {
     /**
      * Helper method for defining associations.
@@ -23,7 +21,7 @@ module.exports = (sequelize, DataTypes) => {
     sequelize,
     modelName: '<%= name %>',
     <%= underscored ? 'underscored: true,' : '' %>
-  });
+  })
 
-  return <%= name %>;
-};
+  return <%= name %>
+}
