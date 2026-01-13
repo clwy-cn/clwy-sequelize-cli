@@ -88,7 +88,7 @@
   "bugs": {
     "url": "https://github.com/sequelize/cli/issues"
   },
-  "homepage": "https://github.com/sequelize/cli",
+  "homepage": "https://github.com/clwy-cn/clwy-sequelize-cli",
   "engines": {
     "node": ">=10.0.0"
   },
